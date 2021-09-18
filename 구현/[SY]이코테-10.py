@@ -57,7 +57,7 @@ def solution(key, lock):
                         for key_col in range(m):
                             expand_lock[lock_row + key_row][lock_col + key_col] -= key[key_row][key_col]
 
-    key = rotate(key)
+        key = rotate(key)
     return False
 
 
